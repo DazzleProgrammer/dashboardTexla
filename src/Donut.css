@@ -1,0 +1,26 @@
+.donut{
+    border-top: 1px solid rgb(224, 220, 220);
+    width: 30vw;
+    /* border-radius: 10px; */
+    height: 400px;
+    margin-top: 50px;
+}
+
+.para{
+    font-weight: 600;
+    font-size: 0.7rem;
+    margin-bottom:  -30px;
+    color: rgb(54, 52, 52);
+}
+
+.main__section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+/* 
+.text__name{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+} */

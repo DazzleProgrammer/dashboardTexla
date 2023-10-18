@@ -1,0 +1,23 @@
+.navbar{
+    height: 50px;
+    /* border: 1px solid rgb(68, 65, 65); */
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.nav__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav__right > img{
+height: 30px;
+}

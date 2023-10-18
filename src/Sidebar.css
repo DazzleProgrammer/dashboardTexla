@@ -1,0 +1,59 @@
+.sidebar{
+    border-right: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 100vh;
+    /* flex: 0.5; */
+}
+
+.logo{
+    color: rgb(12, 12, 169);
+    margin: 20px;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.logo__box{
+border: 2px solid rgb(12, 12, 169) ;
+padding: 2px;
+margin: 3px;
+}
+
+.menu{
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+.menu__title{
+    font-size: small;
+    font-weight: bold;
+    color: grey;
+    margin-left: 10px;
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.menu__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+    font-size: small;
+    width: 80%;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.menu__item:hover {
+    cursor: pointer;
+    background: rgb(209, 215, 248);
+    color: rgb(12, 12, 169);
+}
